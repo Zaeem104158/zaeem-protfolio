@@ -41,7 +41,7 @@ const PORTFOLIO_DATA = {
       category: "Mobile Development",
       icon: "📱",
       items: [
-        { name: "Flutter", level: 95 }
+        { name: "Flutter", level: 95 },
         { name: "Kotlin", level: 80 },
         { name: "Jetpack Compose", level: 70 },
         { name: "Android SDK", level: 75 },
