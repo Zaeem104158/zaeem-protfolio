@@ -186,7 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderExperience() {
     const timeline = document.getElementById('experience-timeline');
-    timeline.innerHTML = D.experience.map((exp, i) => `
+    const expList = D.experience || D.experiences || [];
+    timeline.innerHTML = expList.map((exp, i) => `
       <div class="timeline__item reveal reveal-delay-${Math.min(i + 1, 4)}">
         <div class="timeline__dot"></div>
         <div class="timeline__card">
